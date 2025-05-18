@@ -44,7 +44,6 @@ This project implements a real-time, multi-camera face recognition system using 
 ├── 📄 .gitignore            # (Optional) Specifies intentionally untracked files that Git should ignore
 ├── 📜 Face_cascade.xml      # Haar cascade file for face detection
 ├── 🐍 main.py               # Main application script
-├── 🐍 supermain.py          # (Seems to be another version or main script)
 ├── 📋 requirements.txt      # Python package dependencies
 ├── 📊 face_recognition_log.csv # Log file for recognitions (auto-generated)
 ├── 🧠 known_faces_encodings.pkl # Cache for known face encodings (auto-generated)
