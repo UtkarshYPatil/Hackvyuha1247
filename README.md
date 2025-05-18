@@ -49,7 +49,7 @@ This project implements a real-time, multi-camera face recognition system using 
 ├── 📊 face_recognition_log.csv # Log file for recognitions (auto-generated)
 ├── 🧠 known_faces_encodings.pkl # Cache for known face encodings (auto-generated)
 └── 📖 README.md             # This file!
-
+```text
 ## Requirements
 
 * Python 3.x
