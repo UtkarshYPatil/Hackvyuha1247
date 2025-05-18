@@ -29,21 +29,26 @@ This project implements a real-time, multi-camera face recognition system using 
     * Configurable camera properties (resolution, FPS, auto-focus, auto-exposure).
 * **Frame Buffering**: Manages frames from cameras using queues and a display buffer for smoother output.
 
-## Project Structure
+## 📂 Project Structure
+
+```text
 .
-├── known_faces/ # Directory to store images of known individuals
-│ └── [Person_Name_1]/
-│ ├── image1.jpg
-│ └── image2.png
-│ └── [Person_Name_2]/
-│ └── image1.jpeg
-├── Face_cascade.xml # Haar cascade file for face detection
-├── main.py # Main application script
-├── requirements.txt # Python dependencies
-├── face_recognition_log.csv # Log file for recognitions (auto-generated)
-├── known_faces_encodings.pkl # Cache for known face encodings (auto-generated)
-├── image_4d0293.png # Example image, replace as needed
-└── README.md
+├── 📁 known_faces/         # Directory for storing images of known individuals
+│   ├── 🖼️ [Person_Name_1]/  # Subdirectory for each person
+│   │   ├── image1.jpg
+│   │   └── image2.png
+│   └── 🖼️ [Person_Name_2]/
+│       └── image1.jpeg
+├── 🖼️ image_4d0293.png      # Example/Demo image (replace as needed)
+├── 🖼️ image_4d58c9.png      # Another example/Demo image (replace as needed)
+├── 📄 .gitignore            # (Optional) Specifies intentionally untracked files that Git should ignore
+├── 📜 Face_cascade.xml      # Haar cascade file for face detection
+├── 🐍 main.py               # Main application script
+├── 🐍 supermain.py          # (Seems to be another version or main script)
+├── 📋 requirements.txt      # Python package dependencies
+├── 📊 face_recognition_log.csv # Log file for recognitions (auto-generated)
+├── 🧠 known_faces_encodings.pkl # Cache for known face encodings (auto-generated)
+└── 📖 README.md             # This file!
 
 ## Requirements
 
