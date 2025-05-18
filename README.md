@@ -42,6 +42,7 @@ This project implements a real-time, multi-camera face recognition system using 
 ├── requirements.txt # Python dependencies
 ├── face_recognition_log.csv # Log file for recognitions (auto-generated)
 ├── known_faces_encodings.pkl # Cache for known face encodings (auto-generated)
+├── image_4d0293.png # Example image, replace as needed
 └── README.md
 
 ## Requirements
